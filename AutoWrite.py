@@ -91,7 +91,7 @@ class AutoWrite:
             '//*[@id="_easyui_textbox_input10"]').send_keys(content["备注"].replace('；', '；\n'))
 
         # 保存
-        # http.get_dom('//*[@id="dlg-buttons"]/a[1]').click()
+        http.get_dom('//*[@id="dlg-buttons"]/a[1]').click()
         print("ok")
 
         time.sleep(2)
